@@ -19,7 +19,10 @@ class LinkedList {
 	{ 
 		Node n = head; 
 		while (n != null) { 
-			System.out.print(n.data + " "); 
+			if(n.data==3){
+                      System.out.println(n.data);
+
+             }
 			n = n.next; 
 		} 
 	} 

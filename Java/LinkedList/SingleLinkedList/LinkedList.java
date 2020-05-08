@@ -10,6 +10,18 @@ class LinkedList {
 			next = null; 
 		}
 	} 
+ 
+      public int printList(int d) 
+	{ 
+		Nodee n = head; 
+		while (n != null) { 
+			if (n.data==d){
+               return n.data;
+           }
+			n = n.next; 
+		} 
+       return -1;
+	} 
 
 	public static void main(String[] args) 
 	{ 
@@ -22,6 +34,9 @@ class LinkedList {
 
 		llist.head.next = second; 
                second.next = third;
+            
+      System.out.println(llist.printList(4)); 
+    
 
 		
 	} 

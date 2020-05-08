@@ -1,6 +1,0 @@
-1.Find the factorial of a number.
-2.Check whether a given number is a palindrome or not.
-3.Check whether a given string is a palindrome or not.
-4.Sum of digits of a number using recursion.
-5.Print Fibonacci series using recursion.
-6.Find nth Fibonacci number using recursion.
